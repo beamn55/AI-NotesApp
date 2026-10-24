@@ -1,1 +1,2 @@
-AI Powered NotesApp    Pastores, Nicanor, Baltar 
+AI Powered NotesApp    
+Pastores, Nicanor, Baltar 
