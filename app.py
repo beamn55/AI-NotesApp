@@ -89,63 +89,71 @@ css_dark = """
     @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&display=swap');
 
     .stApp {
-        background-color: #121212;
-        color: #FFFFFF;
+        background-color: #040607;
+        color: #E3D9FC;
         font-family: 'Fredoka', sans-serif;
     }
     h1, h2, h3, p, label, div {
         font-family: 'Fredoka', sans-serif !important;
     }
     .custom-app-title {
-        color: #F2B0CD;
+        color: #BF40FA;
         font-size: 2.8rem;
         font-weight: 700;
         text-align: left;
         letter-spacing: 0.5px;
         margin-bottom: 0px;
+        text-shadow: 0 0 10px rgba(191, 64, 250, 0.4);
     }
     .custom-subtitle {
         text-align: left;
-        color: #A0A0A0;
+        color: #E3D9FC;
         font-weight: 600;
         margin-bottom: 25px;
         font-size: 1.1rem;
+        opacity: 0.8;
     }
     .note-card-pink {
-        background-color: #1E1E1E;
-        border: 1px solid #FF5C89;
-        color: #FFFFFF !important;
+        background-color: #5B2A62;
+        border: 2px solid #BF40FA;
+        color: #E3D9FC !important;
         padding: 24px;
         border-radius: 24px;
         margin-bottom: 20px;
-        box-shadow: 0 8px 30px rgba(0,0,0,0.3);
+        box-shadow: 0 8px 30px rgba(91, 42, 98, 0.5);
     }
     .note-card-blue {
-        background-color: #1E1E1E;
-        border: 1px solid #FB8CAC;
-        color: #FFFFFF !important;
+        background-color: #4928C2;
+        border: 2px solid #BF40FA;
+        color: #E3D9FC !important;
         padding: 24px;
         border-radius: 24px;
         margin-bottom: 20px;
-        box-shadow: 0 8px 30px rgba(0,0,0,0.3);
+        box-shadow: 0 8px 30px rgba(73, 40, 194, 0.5);
     }
     p, label, .stRadio div, .stMarkdown {
-        color: #FFFFFF !important;
+        color: #E3D9FC !important;
     }
     .stButton>button {
-        background-color: #FF5C89 !important;
-        color: #121212 !important;
+        background-color: #BF40FA !important;
+        color: #040607 !important;
         border-radius: 20px;
-        border: none;
+        border: 2px solid #E3D9FC;
         font-weight: 700;
+        padding: 12px 24px;
         width: 100%;
+        box-shadow: 0 4px 15px rgba(191, 64, 250, 0.4);
+    }
+    .stButton>button:hover {
+        background-color: #4928C2 !important;
+        color: #E3D9FC !important;
     }
     [data-testid="stSidebar"] {
-        background-color: #1A1A1A;
-        border-right: 1px solid #333333;
+        background-color: #5B2A62;
+        border-right: 2px solid #4928C2;
     }
     [data-testid="stSidebar"] * {
-        color: #FFFFFF !important;
+        color: #E3D9FC !important;
     }
 </style>
 """
