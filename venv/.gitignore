@@ -1,0 +1,5 @@
+venv/
+.env
+temp_audio_*.wav
+temp_uploaded_audio.wav
+__pycache__/
